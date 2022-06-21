@@ -1,0 +1,57 @@
+{"intents": [
+  {"tag": "greetings",
+    "patterns": ["Hi", "Hello", "Hey","Hi there", "Greetings"],
+    "response": ["Hello! I'm ChatBot!", "Hi there! How can I help you?", "Hey! How can I help you?"]
+  },
+
+  {"tag": "goodbye",
+    "patterns": ["Bye", "See you later", "Goodbye friend", "See you soon", "Take care"],
+    "response": ["Bye! I hope I helped you!", "Bye! If you need anything, I'm here!", "Bye! Have a nice day!"]
+  },
+
+  {"tag": "name",
+    "patterns": ["What's your name?", "Do you have a name?", "What do I call you?","What's your name?","Who are you?","Where are you from?"],
+    "response": ["My name is ChatBot, an I.A. created by Guilherme Godoi, and made to help you in the best way!"]
+  },
+
+  {"tag": "buy",
+    "patterns": ["Buy", "Purchase", "I would like to buy", "Do you want to buy a product", "I would like to make a purchase"],
+    "response": ["Enter the product code you want to buy: \n 1- Cellphone             R$3.000,00\n 2- Bicycle               R$1.000,00 \n 3- Dollhouse              R$300,00\n 4- Ball Pool             R$150,00\n 5- Headphones            R$100,00"]
+  },
+
+  {"tag": "buy1",
+    "patterns": ["1", "Cellphone"],
+    "response": ["Product: Cellphone\nPrice R$3.000,00\nTo confirm the purchase type: Confirm \n If you want to cancel type: Cancel"]
+  },
+
+  {"tag": "buy2",
+    "patterns": ["2", "Bicycle"],
+    "response": ["Product: Bicycle\nPrice R$1.000,00\nTo confirm the purchase type: Confirm \n If you want to cancel type: Cancel"]
+  },
+
+  {"tag": "buy3",
+    "patterns": ["3", "Doll house", "Doll"],
+    "response": ["Product: Dollhouse\nPrice R$300,00\nTo confirm the purchase type: Confirm \n If you want to cancel type: Cancel"]
+  },
+
+  {"tag": "buy4",
+    "patterns": ["4", "Ball Pool", "Pool"],
+    "response": ["Product: Ball Pool\nPrice R$150,00\nTo confirm the purchase type: Confirm \n If you want to cancel type: Cancel"]
+  },
+
+  {"tag": "buy5",
+    "patterns": ["5", "Headphones", "Headphone"],
+    "response": ["Product: Headphones\nPrice R$100,00\nTo confirm the purchase type: Confirm \n If you want to cancel type: Cancel"]
+  },
+
+  {"tag": "confbuy",
+    "patterns": ["Confirm"],
+    "response": ["WARNING! Purchase made successfully!"]
+  },
+
+  {"tag": "cancbuy",
+    "patterns": ["Cancel"],
+    "response": ["WARNING! Purchase canceled successfully!"]
+  }
+
+]}
